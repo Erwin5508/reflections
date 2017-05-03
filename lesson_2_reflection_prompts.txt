@@ -7,25 +7,38 @@ ________________________________________________________________________________
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
-
+the staging area is used to put in evidence the files which will be part of the 
+new commits. The working directory is the directory under which your source 
+files are kept under git control where the .git is present. this presents an 
+advantage because it allows you to select the files on which the commits will be
+done.
 ________________________________________________________________________________
 How can you use the staging area to make sure you have one commit per logical
 change?
 
-
+By adding to it from the working directory one commit at a time. And making a 
+commit that you can label out of that.
 ________________________________________________________________________________
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
-
+when you want other versions of what you are building to acheive simillar but 
+different goals.
 ________________________________________________________________________________
 How do the diagrams help you visualize the branch structure?
 
-
+With the parent word, we realize the relation between each commit, we can see the 
+'HEAD' being the tip of each branch, and how certain branches are lost. 
 ________________________________________________________________________________
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+All of what has been added or removed combine into one single file, making it 
+possible for two people working on two different parts of a project to join it 
+all up. The diagram shows by the concept of parent commits it shows the 
+progretion of a project.
 ________________________________________________________________________________
 What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
 manually?
+
+Less time conssuming, it does it when it actually mekes sense to do it.
